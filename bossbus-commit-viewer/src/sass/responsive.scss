@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px) {
+  .header {
+    text-align: center;
+  }
+  .header a {
+    float: none;
+    text-align: center;
+  }
+  .header a.logo {
+    margin-left: unset;
+  }
+  .header-right {
+    padding-right: unset;
+    margin-top: 20px;
+    float: unset;
+  }
+  .welcome h1 {
+    font-size: 36px;
+    line-height: 52px;
+  }
+  .welcome p {
+    width: 85%;
+  }
+  button {
+    width: 85%;
+  }
+  .form-group input {
+    width: 85%;
+    margin-right: unset;
+    margin-bottom: 10px;
+  }
+  .form-group p {
+    padding: 0 70px 0 70px;
+  }
+  .btn-sm {
+    display: none;
+  }
+  // commits
+  .default {
+    position: absolute;
+    bottom: -44px;
+  }
+  .repo {
+    bottom: -154px;
+  }
+  .date {
+    position: relative;
+    top: -6px;
+    left: 18px;
+  }
+  .name {
+    width: 17%;
+  }
+  .commit {
+    padding-top: 30px;
+  }
+  header a.logo {
+    margin-left: unset;
+  }
+}

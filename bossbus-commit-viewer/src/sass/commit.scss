@@ -1,0 +1,57 @@
+header {
+  background-color: #eff2f6;
+  height: 130px;
+  overflow: hidden;
+  padding: 45px 0 0 10px;
+}
+header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 45px;
+  border-radius: 4px;
+  width: 198px;
+  height: 30px;
+}
+header a.logo {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 85px;
+}
+.commit-list {
+  text-align: center;
+}
+.commit-list h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.commit {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  height: 100px;
+}
+.name {
+  width: 20%;
+  justify-content: center;
+  display: flex;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+.repo {
+  position: absolute;
+  bottom: -5px;
+}
+.default {
+  margin-top: 25px;
+}
+.date {
+  width: 30%;
+  margin-top: 25px;
+}

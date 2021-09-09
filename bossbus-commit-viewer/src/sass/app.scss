@@ -1,0 +1,96 @@
+.header {
+  overflow: hidden;
+  padding: 45px 0 0 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  width: 198px;
+  height: 30px;
+}
+.header p {
+  float: left;
+  color: #18214d;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 120px;
+}
+
+.header-right {
+  float: right;
+  padding-right: 100px;
+}
+.header-right a {
+  width: unset !important;
+  margin-right: 20px;
+}
+.welcome {
+  text-align: center;
+}
+.welcome h1 {
+  font-weight: 600;
+  line-height: 80px;
+  color: #18214d;
+  font-size: 72px;
+}
+.welcome p {
+  margin-top: -20px;
+  width: 28%;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  line-height: 30px;
+}
+// form section
+form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.form-group {
+  text-align: center;
+}
+input {
+  margin-right: 10px;
+  padding: 13px;
+  height: 58px;
+  width: 694px;
+  border-radius: 8px;
+  background: #dfe4ea;
+  border-style: none;
+  font-size: 20px;
+  font-weight: 400;
+  -webkit-text-fill-color: #b1b5c5;
+}
+
+// suggestions
+.suggestions {
+  text-align: center;
+}
+.error {
+  color: red;
+  text-align: left;
+}
+.loader {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.loader p {
+  font-weight: 200;
+}
