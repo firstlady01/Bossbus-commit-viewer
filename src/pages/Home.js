@@ -32,8 +32,24 @@ const Home = () => {
             window.location.href = "/commit?repo=" + newData;
         }
     }
-    const training = async (repo = "/github/training-kit") => {
-        await CommitService.listCommit(repo);
+    const training = async () => {
+        setLoading(true);
+        let repo = "github/training-kit";
+        window.location.href = "/commit?repo=" + repo;
+        setLoading(false);
+    }
+
+    const microsoft = async () => {
+        setLoading(true);
+        let repo = "microsoft/vscode";
+        window.location.href = "/commit?repo=" + repo;
+        setLoading(false);
+    }
+    const styleguidist = async () => {
+        setLoading(true);
+        let repo = "styleguidist/react-styleguidist";
+        window.location.href = "/commit?repo=" + repo;
+        setLoading(false);
     }
     const handleInputChange = (e) => {
         // e.preventDefault(e);
@@ -70,7 +86,8 @@ const Home = () => {
                     {/* Repos suggestions */}
                     <div className="suggestions">
                         <Button label="github/training-kit" color="btn-blue" handleClick={training} />
-                        <Button label="microsoft/vscode" color="btn-blue" />
+                        <Button label="microsoft/vscode" color="btn-blue" handleClick={microsoft} />
+                        <Button label="styleguidist/react-styleguidist" color="btn-blue" handleClick={styleguidist} />
                     </div>
                 </>
             }
