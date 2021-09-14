@@ -38,10 +38,10 @@
   // commits
   .default {
     position: absolute;
-    bottom: -44px;
+    bottom: 101px;
   }
   .repo {
-    bottom: -154px;
+    bottom: -17px;
   }
   .date {
     position: relative;
@@ -52,7 +52,10 @@
     width: 17%;
   }
   .commit {
-    padding-top: 30px;
+    padding-top: 44px;
+  }
+  .commit-list h3 {
+    font-size: unset;
   }
   header a.logo {
     margin-left: unset;

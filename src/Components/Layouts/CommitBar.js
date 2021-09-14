@@ -43,11 +43,11 @@ function CommitBar({ label }) {
             <div className="header-right">
                 <form>
                     <div>
-                        <Search name="search" styling="btn-sm" value={formData.Search} type="text" label={label} onChange={handleInputChange} />
+                        <Search name="search" styling="btn-sm" value={formData.Search} type="text" label={label} onChange={handleInputChange} disabled />
                         {formErrors.search && <p className="error">{formErrors.search}</p>}
                     </div>
                     <div>
-                        <Button label="See Commits 🚀" color="btn btn-sm" handleClick={handleSubmit} />
+                        <Button label="See Commits 🚀" color="btn btn-sm" handleClick={handleSubmit} disabled />
                     </div>
                 </form>
             </div>

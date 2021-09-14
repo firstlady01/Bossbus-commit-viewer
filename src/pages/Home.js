@@ -51,6 +51,12 @@ const Home = () => {
         window.location.href = "/commit?repo=" + repo;
         setLoading(false);
     }
+    const firstlady = async () => {
+        setLoading(true);
+        let repo = "firstlady01/bossbus-commit-viewer";
+        window.location.href = "/commit?repo=" + repo;
+        setLoading(false);
+    }
     const handleInputChange = (e) => {
         // e.preventDefault(e);
         setFormData({
@@ -88,6 +94,7 @@ const Home = () => {
                         <Button label="github/training-kit" color="btn-blue" handleClick={training} />
                         <Button label="microsoft/vscode" color="btn-blue" handleClick={microsoft} />
                         <Button label="styleguidist/react-styleguidist" color="btn-blue" handleClick={styleguidist} />
+                        <Button label="firstlady01/bossbus-commit-viewer" color="btn-blue" handleClick={firstlady} />
                     </div>
                 </>
             }

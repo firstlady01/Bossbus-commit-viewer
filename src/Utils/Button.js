@@ -1,16 +1,14 @@
 import React from 'react';
 
-const buttonStyle = {
-    margin: '0'
-}
 
 
-const Button = ({ label, handleClick, color }) => (
+
+const Button = ({ label, handleClick, color, disabled }) => (
     <button
         className={color}
-        style={buttonStyle}
         onClick={handleClick}
         name="submit"
+        disabled={disabled}
     >
         {label}
     </button>
